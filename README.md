@@ -2,7 +2,9 @@
 # Projeto Final — Deep Learning: Aplicação de Redes Neurais Informadas pela Física (PINNs) na Solução da Equação de Wheeler–DeWitt em um Modelo quântico-cosmológico
 
 **Autor:** António Monteiro
+
 **Matrícula:** [DO2520057]
+
 **Curso:** Doutorado em Modelagem Computacional, UERJ/IPRJ (Nova Friburgo)
 
 ---
