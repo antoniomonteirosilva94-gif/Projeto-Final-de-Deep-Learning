@@ -9,7 +9,7 @@
 
 ## 🚀 Descrição do Projeto (Spectrum Discovery PINN)
 
-Este projeto implementa **Redes Neurais Informadas pela Física (PINNs)** para resolver o problema de autovalores associado à **equação de Wheeler–DeWitt estacionária** de um modelo cosmológico quântico. O objetivo é comparar os resultados obtidos pela PINN com os valores de referência do Método Espectral de Galerkin (MSG)[Monteiro, A].
+Este projeto implementa **Redes Neurais Informadas pela Física (PINNs)** para resolver o problema de autovalores associado à **equação de Wheeler–DeWitt estacionária** de um modelo cosmológico quântico. O objetivo é comparar os resultados obtidos pela PINN com os valores de referência do Método Espectral de Galerkin (MSG) [Monteiro, A].
 
 A metodologia central é tratar os **autovalores ($E_n$) como parâmetros treináveis** da rede neural, permitindo que o PINN descubra simultaneamente as autofunções ($\eta_n(a)$) e o espectro de energia, apenas pela imposição das leis da física via função de perda.
 
@@ -23,7 +23,7 @@ $$
 -\frac{d^2\eta}{da^2} + V(a)\,\eta(a) = 12E\,\eta(a), \quad a\in[0,L],
 $$
 
-com condições de contorno de Dirichlet homogêneas ($\eta(0) = \eta(L) = 0$)[MNonteiro, A: 77, 93].
+com condições de contorno de Dirichlet homogêneas ($\eta(0) = \eta(L) = 0$)[Monteiro, A: 77, 93].
 
 O potencial efetivo $V(a)$ é dado por:
 $$
