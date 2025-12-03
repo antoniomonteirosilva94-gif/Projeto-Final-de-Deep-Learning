@@ -1,5 +1,5 @@
 
-# Projeto Final — Deep Learning: Aplicação de Redes Neurais Informadas pela Física (PINNs) na Solução da Equação de Wheeler–DeWitt em um Modelo quântico-cosmológico
+# Deep Learning: Aplicação de Redes Neurais Informadas pela Física (PINNs) na Solução da Equação de Wheeler–DeWitt em um Modelo quântico-cosmológico
 
 **Autor:** António Monteiro
 **Matrícula:** [DO2520057]
@@ -84,6 +84,7 @@ Os **autovalores de referência** \(E_n\) para os primeiros 15 níveis de energi
 │       └── autofunctions_*.png# Gráficos das autofunções
 └── main.py (opcional)         # Script para chamar o treino/avaliação
 
+---
 
 ## Referências
 
