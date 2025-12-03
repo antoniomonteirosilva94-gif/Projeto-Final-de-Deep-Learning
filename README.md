@@ -80,7 +80,7 @@ A implementação é organizada da seguinte forma:
 
 A análise da **curva de Loss** (Figura 1) e das autofunções (Figura 2) fornece a seguinte conclusão:
 
-* [cite_start]**Concordância Qualitativa:** As autofunções obtidas pelas PINNs demonstram **excelente concordância qualitativa** com as referências, exibindo o número correto de *nodos* (zeros) esperado pela teoria espectral[Monteiro, A: 125, 126].
+* **Concordância Qualitativa:** As autofunções obtidas pelas PINNs demonstram **excelente concordância qualitativa** com as referências, exibindo o número correto de *nodos* (zeros) esperado pela teoria espectral[Monteiro, A: 125, 126].
 * **Instabilidade Numérica:** A curva de Loss (Loss EDP) frequentemente exibe **picos violentos e recorrentes** , indicando que, apesar das otimizações, a convergência foi marcada por **instabilidade numérica** (devido, em parte, à alta complexidade do problema multiestado e, historicamente, a uma alta taxa de aprendizado).
 * **Robustez:** A robustez do modelo é garantida pelas perdas de Ortogonalidade e Condição de Contorno, que permanecem estáveis em $\sim 10^{-6}$, permitindo que o modelo extraia autovalores aceitáveis apesar da instabilidade da Loss EDP.
 
