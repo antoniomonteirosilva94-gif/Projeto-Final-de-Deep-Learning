@@ -7,7 +7,7 @@
 
 ---
 
-## DescriÇão
+## Descrição
 
 Este projeto implementa **Redes Neurais Informadas pela Física (PINNs)** para resolver o problema de autovalores associado à **equação de Wheeler–DeWitt estacionária** de um modelo cosmológico quântico, comparando os resultados com os valores de referência obtidos numericamente (método espectral) na **Tabela 11** da dissertação.
 
